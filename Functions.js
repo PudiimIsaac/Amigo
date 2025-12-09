@@ -12,3 +12,9 @@ function somar(a, b) {
 }
 let resultado = somar(5, 7);
 console.log("Soma:", resultado); // "Soma: 12"
+
+// Arrow Function (Função de seta) moderna
+const somar = (a, b) => {
+return a + b;
+};
+console.log(somar(10, 15)); // "Soma: 25"
